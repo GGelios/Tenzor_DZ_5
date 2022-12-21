@@ -1,6 +1,12 @@
 """Написать функцию, которая возвращает заданное число Фибоначчи. Обязательно через рекурсию"""
 
 def fibonacci(n):
+"""Function Fibonacci
+
+Accepts the number of sequence elements - int n
+Returns the sequence - int fibonacci
+
+"""
     if (n <= 1):
         return n
     else:
